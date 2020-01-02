@@ -27,22 +27,94 @@ package twenty.jan.one.question2;
 
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-//        ListNode ln = new ListNode(0);
-//        ListNode next = null;
-//        int digit = 0;
-//
-//        while (l1.val >=0 && l2.val >= 0) {
-//            ln.val = (l1.val + l2.val + digit) % 10;
-//            if ((l1.val + l2.val) >= 10) {
-//                digit = 1;
-//            } else {
-//                digit = 0;
-//            }
-//        }
-        return null;
+        ListNode ln = new ListNode(0);
+        ListNode next = null;
+        ListNode now = ln;
+
+        int digit = 0;
+
+        while (l1 != null && l2 != null) {
+            next = new ListNode((l1.val + l2.val + digit) % 10);
+            now.next = next;
+            if ((l1.val + l2.val + digit) >= 10) {
+                digit = 1;
+            } else {
+                digit = 0;
+            }
+            l1 = l1.next;
+            l2 = l2.next;
+            now = now.next;
+        }
+
+        while (l1 != null) {
+            next = new ListNode((l1.val + digit) % 10);
+            now.next = next;
+            if ((l1.val + digit) >= 10) {
+                digit = 1;
+            } else {
+                digit = 0;
+            }
+            l1 = l1.next;
+            now = now.next;
+        }
+
+        while (l2 != null) {
+            next = new ListNode((l2.val + digit) % 10);
+            now.next = next;
+            if ((l2.val + digit) >= 10) {
+                digit = 1;
+            } else {
+                digit = 0;
+            }
+            l2 = l2.next;
+            now = now.next;
+        }
+
+        if (digit > 0) {
+            now.next = new ListNode(1);
+        }
+
+        return ln.next;
     }
 
     public static void main(String[] args) {
+        Solution s = new Solution();
+        ListNode l1 = s.initNode1();
+        ListNode l2 = s.initNode2();
+
+        s.printListNode(s.addTwoNumbers(l1, l2));
 
     }
+
+    ListNode initNode1() {
+
+        //  ListNode1   2 -> 4 -> 3
+
+        ListNode l1 = new ListNode(0);
+//        ListNode l1n = new ListNode(4);
+//
+//        l1n.next = new ListNode(3);
+//        l1.next = l1n;
+
+        return l1;
+    }
+
+    ListNode initNode2() {
+        // ListNode2    5 -> 6 -> 4
+        ListNode l2 = new ListNode(0);
+//        ListNode l2n = new ListNode(6);
+//
+////        l2n.next = new ListNode(4);
+//        l2.next = l2n;
+
+        return l2;
+    }
+
+    void printListNode(ListNode ln) {
+        do {
+            System.out.println(ln.val);
+            ln = ln.next;
+        } while (ln != null);
+    }
+
 }
