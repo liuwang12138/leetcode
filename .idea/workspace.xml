@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dac196-e94a-4d65-a692-a8dd99ce7857" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/twenty/jan/two/question3/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twenty/jan/one/question2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twenty/jan/one/question2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/twenty/jan/one/question1/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/twenty/jan/one/question1/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +46,26 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twenty.jan.one.question2.Solution" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="twenty.jan.one.question2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twenty.jan.two.question3.Solution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twenty.jan.two.question3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -102,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577779216328</updated>
       <workItem from="1577779218936" duration="4605000" />
-      <workItem from="1577928192719" duration="2313000" />
+      <workItem from="1577928192719" duration="4004000" />
     </task>
     <task id="LOCAL-00001" summary="Question 1">
       <created>1577782603927</created>
@@ -111,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577782603927</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Question 2&#10;ListNode  add Two Numbers">
+      <created>1577930565979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577930565979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,60 +141,61 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Question 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question 1" />
+    <MESSAGE value="Question 2&#10;ListNode  add Two Numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question 2&#10;ListNode  add Two Numbers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1577779517429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824/1920.-339.1920.1040@0.0.1536.824" timestamp="1577779517429" />
-    <state x="2916" y="-234" key="CommitChangelistDialog2" timestamp="1577930546654">
+    <state x="2916" y="-234" key="CommitChangelistDialog2" timestamp="1577930565016">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
-    <state x="2916" y="-234" key="CommitChangelistDialog2/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930546654" />
-    <state width="1877" height="233" key="GridCell.Tab.0.bottom" timestamp="1577930546677">
+    <state x="2916" y="-234" key="CommitChangelistDialog2/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930565016" />
+    <state width="1877" height="233" key="GridCell.Tab.0.bottom" timestamp="1577932035155">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-339.1920.1040@0.0.1536.824" timestamp="1577780346284" />
-    <state width="1877" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930546677" />
-    <state width="1877" height="233" key="GridCell.Tab.0.center" timestamp="1577930546677">
+    <state width="1877" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932035155" />
+    <state width="1877" height="233" key="GridCell.Tab.0.center" timestamp="1577932035155">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.-339.1920.1040@0.0.1536.824" timestamp="1577780346284" />
-    <state width="1877" height="233" key="GridCell.Tab.0.center/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930546677" />
-    <state width="1877" height="233" key="GridCell.Tab.0.left" timestamp="1577930546677">
+    <state width="1877" height="233" key="GridCell.Tab.0.center/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932035155" />
+    <state width="1877" height="233" key="GridCell.Tab.0.left" timestamp="1577932035155">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.-339.1920.1040@0.0.1536.824" timestamp="1577780346284" />
-    <state width="1877" height="233" key="GridCell.Tab.0.left/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930546677" />
-    <state width="1877" height="233" key="GridCell.Tab.0.right" timestamp="1577930546677">
+    <state width="1877" height="233" key="GridCell.Tab.0.left/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932035155" />
+    <state width="1877" height="233" key="GridCell.Tab.0.right" timestamp="1577932035155">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.-339.1920.1040@0.0.1536.824" timestamp="1577780346284" />
-    <state width="1877" height="233" key="GridCell.Tab.0.right/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930546677" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1577930293786">
+    <state width="1877" height="233" key="GridCell.Tab.0.right/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932035155" />
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom" timestamp="1577932028280">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930293786" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1577930293786">
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932028280" />
+    <state width="1877" height="306" key="GridCell.Tab.1.center" timestamp="1577932028280">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930293786" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1577930293786">
+    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932028280" />
+    <state width="1877" height="306" key="GridCell.Tab.1.left" timestamp="1577932028279">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930293786" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1577930293786">
+    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932028279" />
+    <state width="1877" height="306" key="GridCell.Tab.1.right" timestamp="1577932028280">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930293786" />
-    <state x="2472" y="-86" key="Vcs.Push.Dialog.v2" timestamp="1577782605242">
+    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932028280" />
+    <state x="2472" y="-86" key="Vcs.Push.Dialog.v2" timestamp="1577930567688">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
-    <state x="2472" y="-86" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577782605242" />
-    <state x="2672" y="98" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577930518705">
+    <state x="2472" y="-86" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930567688" />
+    <state x="2672" y="98" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577932216907">
       <screen x="1920" y="-339" width="1920" height="1040" />
     </state>
-    <state x="2672" y="98" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577930518705" />
+    <state x="2672" y="98" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.-339.1920.1040@1920.-339.1920.1040" timestamp="1577932216907" />
   </component>
 </project>
